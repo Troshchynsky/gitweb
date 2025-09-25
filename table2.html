@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table 2</title>
+    <h1><a href="table1.html">Table 1</a></h1>
+    <h1>Table 2</h1>
+    <h1><a href="table3.html">Table 3</a></h1>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+    <table class="table2">
+        <caption>Перша таблиця, БАТЬКІВСЬКА</caption>
+        <tr>
+            <td colspan="2">1-2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td colspan="2" rowspan="2">
+                <table class="table2_inner">
+                    <caption>Друга таблиця, ДОЧІРНЯ</caption>
+                    <tr>
+                        <td id="t1">1</td>
+                        <td rowspan="3">2-5-8</td>
+                        <td rowspan="2" id="t2">3-6</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" id="t2">4-7</td>
+                    </tr>
+                    <tr>
+                        <td id="t1">9</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>7</td>
+        </tr>
+    </table>
+</body>
+</html>

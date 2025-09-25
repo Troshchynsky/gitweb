@@ -1,0 +1,99 @@
+.table1{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 75%;
+    margin: 0 auto;
+}
+.table1 td{
+    border: 2px solid black;
+    width: 33%;
+    height: 50px;
+    text-align: center;
+}
+.table1 tr:nth-child(2){
+    height: 200px;
+}
+/*end of table1, start of table2*/
+.table2{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 95%;
+    margin: 0 auto;
+}
+.table2 td{
+    height: 50px;
+    width: 28%;
+    border: 2px solid black;
+    text-align: center;
+}
+.table2 td:nth-child(2){
+    width: 60%;
+}
+.table2 .table2_inner{
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.table2_inner {
+    border: 2px solid black;
+    width: 33%;
+    text-align: center;
+}
+.table2_inner #t1{
+    height: 100px;
+}
+.table2_inner #t2{
+    height: 200px;
+}
+/*end of table2, start of table3*/
+.table3{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.table3 td{
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+}
+.yel{
+    background-color: yellow;
+}
+.black{
+    background-color: black;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+#bot{
+    border-bottom: none;
+}
+#top{
+    border-top: none;
+}
+#left{
+    border-left: none;
+}
+#right{
+    border-right: none;
+}
+#bottop{
+    border-top: none;
+    border-bottom: none;
+}
+#topright{
+    border-top: none;
+    border-right: none;
+}
+#topleft{
+    border-top: none;
+    border-left: none;
+}
+#side{
+    border-left: none;
+    border-right: none;
+}
+
